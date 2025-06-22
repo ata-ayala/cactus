@@ -4,14 +4,14 @@
     "href": "acerca.html",
     "title": "Acerca del proyecto",
     "section": "",
-    "text": "🎯 Objetivo\nElaborar un listado general de los taxones de la familia Cactaceae que habitan en el Paraguay —nativas y exóticas— con información que facilite la toma de decisiones para la conservación.\n\n\n🧪 Metodología\nSe utilizó una base de datos con 2.255 registros provenientes de herbarios nacionales y extranjeros. La nomenclatura se actualizó siguiendo listas validadas por expertos y plataformas especializadas.\n\n\n🗂️ Estructura del catálogo\nCada ficha incluye: - Nombre científico y sinónimos - Origen y distribución departamental - Material de referencia - Presencia en Áreas Silvestres Protegidas - Taxones infraespecíficos (cuando corresponde) - Observaciones relevantes"
+    "text": "🧪 Metodología\nSe utilizó una base de datos con 2.255 registros provenientes de herbarios nacionales y extranjeros. La nomenclatura se actualizó siguiendo listas validadas por expertos y plataformas especializadas.\n\n\n🗂️ Estructura del catálogo\nCada ficha incluye: - Nombre científico y sinónimos - Origen y distribución departamental - Material de referencia - Presencia en Áreas Silvestres Protegidas - Taxones infraespecíficos (cuando corresponde) - Observaciones relevantes"
   },
   {
-    "objectID": "acerca.html#running-code",
-    "href": "acerca.html#running-code",
-    "title": "acerca",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+    "objectID": "data/Departamentos.html",
+    "href": "data/Departamentos.html",
+    "title": "Guía de Cactus",
+    "section": "",
+    "text": "<!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’>"
   },
   {
     "objectID": "especies.html",
@@ -21,59 +21,10 @@
     "text": "Sinónimo: Echinopsis rhodotricha\nOrigen: Nativa\nDistribución: Alto Paraguay, Boquerón, Central, Concepción, Guairá, Paraguarí, Presidente Hayes\nMaterial de referencia: Anisits 20, 25 (B); Pin A. 734 B (FCQ)\nÁreas protegidas: Parque Nacional Defensores del Chaco (“Cerro León”)\nTaxones infraespecíficos: - A. rhodotrichum subsp. chacoanum - A. rhodotrichum subsp. rhodotrichum\nObservaciones:\nEsta especie alcanza de 15 cm a más de 2 m de altura según los registros. Se requieren más estudios para definir su rango completo en el Chaco paraguayo.\n\n\n\n\nAcanthocalycium rhodotrichum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSinónimo: Opuntia schulzii\nOrigen: Nativa\nDistribución: Alto Paraguay, Alto Paraná, Amambay, Central, Concepción, Cordillera, Guairá, Itapúa, Paraguarí\nMaterial de referencia: Pin A. 682 Bc, 682 Ba (FCQ, PY)\nÁreas protegidas: Acahay, Cerro Corá, Ybycuí, Moisés Bertoni\nObservaciones:\nPOWO la considera sinónimo de B. brasiliensis. Se diferencia por sus frutos piriformes y flores con estigma morado.\n\n\n\n\nBrasiliopuntia schulzii\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrigen: Nativa – Endémica del Paraguay\nDistribución: Alto Paraguay (Cerro León)\nMaterial de referencia: Schinini et al. 21183 (CTES)\nÁreas protegidas: Parque Nacional Defensores del Chaco\nObservaciones:\nNo hay registros en herbarios nacionales. Se requieren más colectas.\n\n\n\n\nGymnocalycium paediophilum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSinónimo: Cactus ficus-indica, = Opuntia paraguayensis\nOrigen: Exótica\nDistribución: Boquerón, Central, Concepción, Cordillera, Paraguarí, Presidente Hayes\nMaterial de referencia: Aquino et al. 448 (FCQ)\nÁreas protegidas: Ninguna\n\n\n\n\nOpuntia ficus-indica"
   },
   {
-    "objectID": "especies.html#running-code",
-    "href": "especies.html#running-code",
-    "title": "especies",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Guía de Cactus del Paraguay",
     "section": "",
-    "text": "🌵 Catálogo de las Cactaceae del Paraguay\nAutora: Ana Pin\nAño: 2025\nEsta guía presenta el primer Catálogo de Cactaceae del Paraguay, con 68 especies distribuidas en 23 géneros. El objetivo es facilitar acciones de investigación y conservación de este grupo botánico, incorporando información actualizada sobre origen, distribución, presencia en áreas protegidas y observaciones basadas en 2.255 registros de herbarios nacionales e internacionales.\n🔎 Explorá la sección Especies para ver las fichas detalladas."
-  },
-  {
-    "objectID": "index.html#running-code",
-    "href": "index.html#running-code",
-    "title": "index",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
-  },
-  {
-    "objectID": "especies.html#acanthocalycium-rhodotrichum",
-    "href": "especies.html#acanthocalycium-rhodotrichum",
-    "title": "Especies",
-    "section": "",
-    "text": "Sinónimo: Echinopsis rhodotricha\nOrigen: Nativa\nDistribución: Alto Paraguay, Boquerón, Central, Concepción, Guairá, Paraguarí, Presidente Hayes\nMaterial de referencia: Anisits 20, 25 (B); Pin A. 734 B (FCQ)\nÁreas protegidas: Parque Nacional Defensores del Chaco (“Cerro León”)\nTaxones infraespecíficos: - A. rhodotrichum subsp. chacoanum - A. rhodotrichum subsp. rhodotrichum\nObservaciones:\nEsta especie alcanza de 15 cm a más de 2 m de altura según los registros. Se requieren más estudios para definir su rango completo en el Chaco paraguayo.\n\n\n\n\nAcanthocalycium rhodotrichum"
-  },
-  {
-    "objectID": "especies.html#brasiliopuntia-schulzii",
-    "href": "especies.html#brasiliopuntia-schulzii",
-    "title": "Especies",
-    "section": "",
-    "text": "Sinónimo: Opuntia schulzii\nOrigen: Nativa\nDistribución: Alto Paraguay, Alto Paraná, Amambay, Central, Concepción, Cordillera, Guairá, Itapúa, Paraguarí\nMaterial de referencia: Pin A. 682 Bc, 682 Ba (FCQ, PY)\nÁreas protegidas: Acahay, Cerro Corá, Ybycuí, Moisés Bertoni\nObservaciones:\nPOWO la considera sinónimo de B. brasiliensis. Se diferencia por sus frutos piriformes y flores con estigma morado.\n\n\n\n\nBrasiliopuntia schulzii"
-  },
-  {
-    "objectID": "especies.html#gymnocalycium-paediophilum",
-    "href": "especies.html#gymnocalycium-paediophilum",
-    "title": "Especies",
-    "section": "",
-    "text": "Origen: Nativa – Endémica del Paraguay\nDistribución: Alto Paraguay (Cerro León)\nMaterial de referencia: Schinini et al. 21183 (CTES)\nÁreas protegidas: Parque Nacional Defensores del Chaco\nObservaciones:\nNo hay registros en herbarios nacionales. Se requieren más colectas.\n\n\n\n\nGymnocalycium paediophilum"
-  },
-  {
-    "objectID": "especies.html#opuntia-ficus-indica",
-    "href": "especies.html#opuntia-ficus-indica",
-    "title": "Especies",
-    "section": "",
-    "text": "Sinónimo: Cactus ficus-indica, = Opuntia paraguayensis\nOrigen: Exótica\nDistribución: Boquerón, Central, Concepción, Cordillera, Paraguarí, Presidente Hayes\nMaterial de referencia: Aquino et al. 448 (FCQ)\nÁreas protegidas: Ninguna\n\n\n\n\nOpuntia ficus-indica"
-  },
-  {
-    "objectID": "data/Departamentos.html",
-    "href": "data/Departamentos.html",
-    "title": "Guía de Cactus",
-    "section": "",
-    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n               PROJCRS[“WGS 84 / UTM zone 21S”,BASEGEOGCRS[“WGS 84”,ENSEMBLE[“World Geodetic System 1984 ensemble”,MEMBER[“World Geodetic System 1984 (Transit)”],MEMBER[“World Geodetic System 1984 (G730)”],MEMBER[“World Geodetic System 1984 (G873)”],MEMBER[“World Geodetic System 1984 (G1150)”],MEMBER[“World Geodetic System 1984 (G1674)”],MEMBER[“World Geodetic System 1984 (G1762)”],MEMBER[“World Geodetic System 1984 (G2139)”],ELLIPSOID[“WGS 84”,6378137,298.257223563,LENGTHUNIT[“metre”,1]],ENSEMBLEACCURACY[2.0]],PRIMEM[“Greenwich”,0,ANGLEUNIT[“degree”,0.0174532925199433]],ID[“EPSG”,4326]],CONVERSION[“UTM zone 21S”,METHOD[“Transverse Mercator”,ID[“EPSG”,9807]],PARAMETER[“Latitude of natural origin”,0,ANGLEUNIT[“degree”,0.0174532925199433],ID[“EPSG”,8801]],PARAMETER[“Longitude of natural origin”,-57,ANGLEUNIT[“degree”,0.0174532925199433],ID[“EPSG”,8802]],PARAMETER[“Scale factor at natural origin”,0.9996,SCALEUNIT[“unity”,1],ID[“EPSG”,8805]],PARAMETER[“False easting”,500000,LENGTHUNIT[“metre”,1],ID[“EPSG”,8806]],PARAMETER[“False northing”,10000000,LENGTHUNIT[“metre”,1],ID[“EPSG”,8807]]],CS[Cartesian,2],AXIS[“(E)”,east,ORDER[1],LENGTHUNIT[“metre”,1]],AXIS[“(N)”,north,ORDER[2],LENGTHUNIT[“metre”,1]],USAGE[SCOPE[“Engineering survey, topographic mapping.”],AREA[“Between 60�W and 54�W, southern hemisphere between 80�S and equator, onshore and offshore. Argentina. Bolivia. Brazil. Falkland Islands (Malvinas). Paraguay. Uruguay.”],BBOX[-80,-60,0,-54]],ID[“EPSG”,32721]] +proj=utm +zone=21 +south +datum=WGS84 +units=m +no_defs 3171 32721 EPSG:32721 WGS 84 / UTM zone 21S utm EPSG:7030 false"
+    "text": "Autora: Ana Pin\nAño: 2025\nEsta guía presenta el primer Catálogo de Cactaceae del Paraguay, con 68 especies distribuidas en 23 géneros. El objetivo es facilitar acciones de investigación y conservación de este grupo botánico, incorporando información actualizada sobre origen, distribución, presencia en áreas protegidas y observaciones basadas en 2.255 registros de herbarios nacionales e internacionales.\n🔎 Explorá la sección Especies para ver las fichas detalladas."
   }
 ]
