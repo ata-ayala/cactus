@@ -1,0 +1,23 @@
+---
+title: "Acerca del proyecto"
+format: html
+editor: visual
+---
+
+# 🎯 Objetivo
+
+Elaborar un listado general de los taxones de la familia Cactaceae que habitan en el Paraguay —nativas y exóticas— con información que facilite la toma de decisiones para la conservación.
+
+# 🧪 Metodología
+
+Se utilizó una base de datos con 2.255 registros provenientes de herbarios nacionales y extranjeros. La nomenclatura se actualizó siguiendo listas validadas por expertos y plataformas especializadas.
+
+# 🗂️ Estructura del catálogo
+
+Cada ficha incluye:
+- Nombre científico y sinónimos
+- Origen y distribución departamental
+- Material de referencia
+- Presencia en Áreas Silvestres Protegidas
+- Taxones infraespecíficos (cuando corresponde)
+- Observaciones relevantes
