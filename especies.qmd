@@ -1,0 +1,164 @@
+---
+title: "Especies"
+execute:
+  echo: false
+  message: false
+  warning: false
+  error: true
+format: html
+---
+
+# 📘 Ejemplos de fichas de especies
+
+```{r}
+#| label: setup
+#| include: false
+# Cargar paquetes
+library(sf)
+library(leaflet)
+library(stringi)
+
+# Leer departamentos
+dept <- st_read("data/departamentos.geojson", quiet = TRUE)
+
+# Normalizar nombres a mayúsculas y sin tildes
+dept$dpto_desc  <- toupper(dept$dpto_desc)
+dept$dpto_norm  <- stri_trans_general(dept$dpto_desc, "Latin-ASCII")
+
+# Función de ayuda para crear mapas de distribución
+map_species <- function(mi_deptos, lon, lat, zoom = 6){
+  mi_norm <- stri_trans_general(toupper(mi_deptos), "Latin-ASCII")
+  sub <- dept[dept$dpto_norm %in% mi_norm, ]
+  leaflet(sub) |>
+    addTiles() |>
+    addPolygons(color = "#6cca62", weight = 1.5,
+                fillOpacity = 0.5,
+                label = ~dpto_desc) |>
+    setView(lng = lon, lat = lat, zoom = zoom)
+}
+```
+
+## Acanthocalycium rhodotrichum
+
+::: {.columns}
+
+::: {.column width="65%"}
+**Sinónimo:** *Echinopsis rhodotricha*  
+**Origen:** Nativa  
+**Distribución:** Alto Paraguay, Boquerón, Central, Concepción, Guairá, Paraguarí, Presidente Hayes  
+**Material de referencia:** Anisits 20, 25 (B); Pin A. 734 B (FCQ)  
+**Áreas protegidas:** Parque Nacional Defensores del Chaco ("Cerro León")  
+**Taxones infraespecíficos:**
+- *A. rhodotrichum* subsp. *chacoanum*
+- *A. rhodotrichum* subsp. *rhodotrichum*
+
+**Observaciones:**  
+Esta especie alcanza de 15&nbsp;cm a más de 2&nbsp;m de altura según los registros. Se requieren más estudios para definir su rango completo en el Chaco paraguayo.
+:::
+
+::: {.column width="35%"}
+![Acanthocalycium rhodotrichum](images/1.jpeg)
+:::
+
+:::
+
+### 🗺️ Mapa de distribución de *Acanthocalycium rhodotrichum*
+
+```{r}
+map_species(
+  c("ALTO PARAGUAY", "BOQUERÓN", "CENTRAL",
+    "CONCEPCIÓN", "GUAIRÁ", "PARAGUARÍ", "PRESIDENTE HAYES"),
+  lon = -58.4, lat = -23.5, zoom = 6)
+```
+
+---
+
+## Brasiliopuntia schulzii
+
+::: {.columns}
+
+::: {.column width="65%"}
+**Sinónimo:** *Opuntia schulzii*  
+**Origen:** Nativa  
+**Distribución:** Alto Paraguay, Alto Paraná, Amambay, Central, Concepción, Cordillera, Guairá, Itapúa, Paraguarí  
+**Material de referencia:** Pin A. 682 Bc, 682 Ba (FCQ, PY)  
+**Áreas protegidas:** Acahay, Cerro Corá, Ybycuí, Moisés Bertoni  
+
+**Observaciones:**  
+POWO la considera sinónimo de *B. brasiliensis*. Se diferencia por sus frutos piriformes y flores con estigma morado.
+:::
+
+::: {.column width="35%"}
+![Brasiliopuntia schulzii](images/2.jpeg)
+:::
+
+:::
+
+### 🗺️ Mapa de distribución de *Brasiliopuntia schulzii*
+
+```{r}
+map_species(
+  c("ALTO PARAGUAY", "ALTO PARANÁ", "AMAMBAY", "CENTRAL",
+    "CONCEPCIÓN", "CORDILLERA", "GUAIRÁ", "ITAPÚA", "PARAGUARÍ"),
+  lon = -58.4, lat = -24.0, zoom = 6)
+```
+
+---
+
+## Gymnocalycium paediophilum
+
+::: {.columns}
+
+::: {.column width="65%"}
+**Origen:** Nativa – Endémica del Paraguay  
+**Distribución:** Alto Paraguay (Cerro León)  
+**Material de referencia:** Schinini et al. 21183 (CTES)  
+**Áreas protegidas:** Parque Nacional Defensores del Chaco  
+
+**Observaciones:**  
+No hay registros en herbarios nacionales. Se requieren más colectas.
+:::
+
+::: {.column width="35%"}
+![Gymnocalycium paediophilum](images/3.jpeg)
+:::
+
+:::
+
+### 🗺️ Mapa de distribución de *Gymnocalycium paediophilum*
+
+```{r}
+map_species(
+  c("ALTO PARAGUAY"),
+  lon = -59.0, lat = -21.5, zoom = 7)
+```
+
+---
+
+## Opuntia ficus-indica
+
+::: {.columns}
+
+::: {.column width="65%"}
+**Sinónimo:** *Cactus ficus-indica*, = *Opuntia paraguayensis*  
+**Origen:** Exótica  
+**Distribución:** Boquerón, Central, Concepción, Cordillera, Paraguarí, Presidente Hayes  
+**Material de referencia:** Aquino et al. 448 (FCQ)  
+**Áreas protegidas:** Ninguna
+:::
+
+::: {.column width="35%"}
+![Opuntia ficus-indica](images/4.jpeg)
+:::
+
+:::
+
+### 🗺️ Mapa de distribución de *Opuntia ficus-indica*
+
+```{r}
+map_species(
+  c("BOQUERÓN", "CENTRAL", "CONCEPCIÓN",
+    "CORDILLERA", "PARAGUARÍ", "PRESIDENTE HAYES"),
+  lon = -58.5, lat = -24.0, zoom = 6)
+```
+
