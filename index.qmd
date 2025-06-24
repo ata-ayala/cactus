@@ -4,7 +4,7 @@ format: html
 page-layout: full
 ---
 
-<img src="images/banner.jpg" alt="Cactus del Paraguay" style="width: 100%; border-radius: 12px; margin-bottom: 20px;"/>
+<img src="images/banner.JPG" alt="Cactus del Paraguay" style="width: 100%; border-radius: 12px; margin-bottom: 20px;"/>
 
 # 🌵 Bienvenidos a la Guía de Cactus
 
