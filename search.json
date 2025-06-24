@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "acerca.html",
+    "href": "acerca.html",
+    "title": "Acerca del proyecto",
+    "section": "",
+    "text": "🧪 Metodología\nSe utilizó una base de datos con 2.255 registros provenientes de herbarios nacionales y extranjeros. La nomenclatura se actualizó siguiendo listas validadas por expertos y plataformas especializadas.\n\n\n🗂️ Estructura del catálogo\nCada ficha incluye: - Nombre científico y sinónimos - Origen y distribución departamental - Material de referencia - Presencia en Áreas Silvestres Protegidas - Taxones infraespecíficos (cuando corresponde) - Observaciones relevantes"
+  },
+  {
+    "objectID": "data/Departamentos.html",
+    "href": "data/Departamentos.html",
+    "title": "Guía de Cactus",
+    "section": "",
+    "text": "<!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’>"
+  },
+  {
+    "objectID": "especies.html",
+    "href": "especies.html",
+    "title": "Especies",
+    "section": "",
+    "text": "Sinónimo: Echinopsis rhodotricha\nOrigen: Nativa\nDistribución: Alto Paraguay, Boquerón, Central, Concepción, Guairá, Paraguarí, Presidente Hayes\nMaterial de referencia: Anisits 20, 25 (B); Pin A. 734 B (FCQ)\nÁreas protegidas: Parque Nacional Defensores del Chaco (“Cerro León”)\nTaxones infraespecíficos: - A. rhodotrichum subsp. chacoanum - A. rhodotrichum subsp. rhodotrichum\nObservaciones:\nEsta especie alcanza de 15 cm a más de 2 m de altura según los registros. Se requieren más estudios para definir su rango completo en el Chaco paraguayo.\n\n\n\n\nAcanthocalycium rhodotrichum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSinónimo: Opuntia schulzii\nOrigen: Nativa\nDistribución: Alto Paraguay, Alto Paraná, Amambay, Central, Concepción, Cordillera, Guairá, Itapúa, Paraguarí\nMaterial de referencia: Pin A. 682 Bc, 682 Ba (FCQ, PY)\nÁreas protegidas: Acahay, Cerro Corá, Ybycuí, Moisés Bertoni\nObservaciones:\nPOWO la considera sinónimo de B. brasiliensis. Se diferencia por sus frutos piriformes y flores con estigma morado.\n\n\n\n\nBrasiliopuntia schulzii\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrigen: Nativa – Endémica del Paraguay\nDistribución: Alto Paraguay (Cerro León)\nMaterial de referencia: Schinini et al. 21183 (CTES)\nÁreas protegidas: Parque Nacional Defensores del Chaco\nObservaciones:\nNo hay registros en herbarios nacionales. Se requieren más colectas.\n\n\n\n\nGymnocalycium paediophilum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSinónimo: Cactus ficus-indica, = Opuntia paraguayensis\nOrigen: Exótica\nDistribución: Boquerón, Central, Concepción, Cordillera, Paraguarí, Presidente Hayes\nMaterial de referencia: Aquino et al. 448 (FCQ)\nÁreas protegidas: Ninguna\n\n\n\n\nOpuntia ficus-indica"
+  },
+  {
+    "objectID": "index.html#qué-vas-a-encontrar-aquí",
+    "href": "index.html#qué-vas-a-encontrar-aquí",
+    "title": "Guía ilustrada de los cactus del Paraguay",
+    "section": "🧭 ¿Qué vas a encontrar aquí?",
+    "text": "🧭 ¿Qué vas a encontrar aquí?\n\n📘 Fichas de especies con descripciones botánicas y fotografías\n🗺️ Mapas interactivos de distribución por departamento\n📚 Información taxonómica actualizada\n🔎 Una interfaz sencilla pensada para investigadores, estudiantes y amantes de la flora nativa"
+  },
+  {
+    "objectID": "index.html#explorar-especies",
+    "href": "index.html#explorar-especies",
+    "title": "Guía ilustrada de los cactus del Paraguay",
+    "section": "🔍 Explorar especies",
+    "text": "🔍 Explorar especies\n👉 Ingresá a la sección Especies para comenzar a navegar la colección."
+  },
+  {
+    "objectID": "index.html#créditos",
+    "href": "index.html#créditos",
+    "title": "Guía ilustrada de los cactus del Paraguay",
+    "section": "🌐 Créditos",
+    "text": "🌐 Créditos\nEste sitio fue desarrollado con Quarto y R, como parte de un proyecto de divulgación científica y conservación vegetal en Paraguay."
+  }
+]
