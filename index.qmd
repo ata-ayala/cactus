@@ -1,14 +1,34 @@
 ---
-title: "Guía de Cactus del Paraguay"
+title: "Guía ilustrada de los cactus del Paraguay"
 format: html
-editor: visual
+page-layout: full
 ---
 
-🌵 Catálogo de las Cactaceae del Paraguay
+<img src="images/banner.jpg" alt="Cactus del Paraguay" style="width: 100%; border-radius: 12px; margin-bottom: 20px;"/>
 
-**Autora:** Ana Pin\
-**Año:** 2025
+# 🌵 Bienvenidos a la Guía de Cactus
 
-Esta guía presenta el primer Catálogo de Cactaceae del Paraguay, con 68 especies distribuidas en 23 géneros. El objetivo es facilitar acciones de investigación y conservación de este grupo botánico, incorporando información actualizada sobre origen, distribución, presencia en áreas protegidas y observaciones basadas en 2.255 registros de herbarios nacionales e internacionales.
+Esta plataforma es una versión digital de una guía ilustrada sobre las especies de cactus (familia **Cactaceae**) presentes en Paraguay.
 
-🔎 Explorá la sección **Especies** para ver las fichas detalladas.
+Encontrarás fichas detalladas por especie, mapas interactivos de distribución y fotografías que documentan su presencia en distintas regiones del país.
+
+---
+
+## 🧭 ¿Qué vas a encontrar aquí?
+
+- 📘 **Fichas de especies** con descripciones botánicas y fotografías
+- 🗺️ **Mapas interactivos** de distribución por departamento
+- 📚 Información taxonómica actualizada
+- 🔎 Una interfaz sencilla pensada para investigadores, estudiantes y amantes de la flora nativa
+
+---
+
+## 🔍 Explorar especies
+
+👉 Ingresá a la sección [**Especies**](especies.html) para comenzar a navegar la colección.
+
+---
+
+## 🌐 Créditos
+
+Este sitio fue desarrollado con [Quarto](https://quarto.org) y R, como parte de un proyecto de divulgación científica y conservación vegetal en Paraguay.
