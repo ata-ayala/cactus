@@ -14,10 +14,4 @@ Se utilizó una base de datos con 2.255 registros provenientes de herbarios naci
 
 # 🗂️ Estructura del catálogo
 
-Cada ficha incluye:
-- Nombre científico y sinónimos
-- Origen y distribución departamental
-- Material de referencia
-- Presencia en Áreas Silvestres Protegidas
-- Taxones infraespecíficos (cuando corresponde)
-- Observaciones relevantes
+Cada ficha incluye: - Nombre científico y sinónimos - Origen y distribución departamental - Material de referencia - Presencia en Áreas Silvestres Protegidas - Taxones infraespecíficos (cuando corresponde) - Observaciones relevantes
