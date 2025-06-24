@@ -6,6 +6,7 @@ page-layout: full
 
 <img src="images/banner.JPG" alt="Cactus del Paraguay" style="width: 100%; border-radius: 12px; margin-bottom: 20px;"/>
 
+Autora: Ana Pin, 2025
 # 🌵 Bienvenidos a la Guía de Cactus
 
 Esta plataforma es una versión digital de una guía ilustrada sobre las especies de cactus (familia **Cactaceae**) presentes en Paraguay.
